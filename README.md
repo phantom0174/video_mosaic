@@ -35,7 +35,7 @@ Additional details can be found in the [project slides][slides_link].
 - target: Bad Apple (6571 frames)
 - tile library: Bad Apple frames
 - resolution: 40x40
-- output scale: 3.0
+- output scale: 3.0 (1440*1080)
 
 ### Results
 
@@ -66,6 +66,8 @@ Additional details can be found in the [project slides][slides_link].
 - ROCm: unavailable (currently offline)
 
 ## ☘️ Usage
+
+> frame extraction for target videos (`get_frames.py`) can be found in [photo-mosaic][photo_mosaic]
 
 1. Get the essential tools:
     > run `get_ffmpeg.sh`, `get_img_turbo.sh`
