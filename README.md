@@ -1,7 +1,5 @@
 # Video Mosaic
 
-> A CUDA/HIP-accelerated video photo-mosaic generator achieving up to **184× speedup**, enabling per-frame mosaic rendering for full-length videos.
-
 ## 🔧 Developers
 
 - @phantom0174
