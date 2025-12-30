@@ -3,7 +3,7 @@
 namespace Cfg {
     // ==========================================
     const std::string FIT_DIR = "./bad_frames";
-    const std::string TILE_DIR = "./bad_frames";
+    const std::string TILE_DIR = "./epstein_frames";
     const std::string OUTPUT_DIR = "./fit_result";
     
     const std::string CACHE_FILE = "tiles_cache.bin"; 
@@ -11,13 +11,13 @@ namespace Cfg {
     // ==========================================
     
     // bad apple frames dimensions: 480x360
-    constexpr int BASE_W = 480;
-    constexpr int BASE_H = 360;
+    constexpr int BASE_W = 550;
+    constexpr int BASE_H = 720;
 
-    constexpr int GRID_COLS = 40;
-    constexpr int GRID_ROWS = 40;
+    constexpr int GRID_COLS = 36;
+    constexpr int GRID_ROWS = 30;
 
-    constexpr float OUTPUT_SCALE = 3.0f; 
+    constexpr float OUTPUT_SCALE = 3.0f;
 
     // ------------------------------------------ do not modify
     
