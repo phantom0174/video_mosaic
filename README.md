@@ -41,7 +41,7 @@ Additional details can be found in the [project slides][slides_link].
 | version      | system spec                    | core matching time | equivalent speedup | comment         |
 |--------------|--------------------------------|--------------------|--------------------|-----------------|
 | photo-mosaic | TR 7960X w/ 2x 5070 Ti 16G     | ~10 mins.          | baseline           |                 |
-| HIP          | Xeon X5670 w/ 2x MI100         | 33 secs.           | x18.2              | I/O bound (CPU) |
+| HIP          | EPYC 7742 w/ 2x MI100         | 33 secs.           | x18.2              | I/O bound (CPU) |
 | CUDA (opt)   | Ultra 7 265K w/ 1x 5060 Ti 16G | 6.5 secs.          | x184.6             |                 |
 
 ## 🧱 Requirements
