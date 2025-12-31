@@ -18,12 +18,13 @@ Additional details can be found in the [project slides][slides_link].
 
 ```
 .
-├── common.h          # shared configuration
-├── opt_turbo.cu      # CUDA version (migrated from HIP version)
-├── opt_turbo.cpp     # HIP version
-├── make_cache.cpp    # preprocess tile library
-├── sewing.txt        # ffmpeg command for stitching frames
-├── bad_frames.zip    # Bad Apple frame DB
+├── src/common.h          # shared configuration
+├── src/opt_turbo.cu      # CUDA version (migrated from HIP version)
+├── src/opt_turbo.cpp     # HIP version
+├── src/make_cache.cpp    # preprocess tile library
+├── tools/sewing.txt      # ffmpeg command for stitching frames
+├── tools/process_pdf.py  # preprocess Epstein pdf files into images
+├── bad_frames.zip        # Bad Apple frame DB
 ```
 
 ## 🔢 Performance

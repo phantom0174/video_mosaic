@@ -11,11 +11,11 @@ namespace Cfg {
     // ==========================================
     
     // bad apple frames dimensions: 480x360
-    constexpr int BASE_W = 550;
+    constexpr int BASE_W = 960;
     constexpr int BASE_H = 720;
 
-    constexpr int GRID_COLS = 36;
-    constexpr int GRID_ROWS = 30;
+    constexpr int GRID_COLS = 50;
+    constexpr int GRID_ROWS = 25;
 
     constexpr float OUTPUT_SCALE = 3.0f;
 

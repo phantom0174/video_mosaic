@@ -2,8 +2,7 @@ bad_frames/
 libs_build/
 mosaic_libs/
 fit_result/
-vids/bad_apple.out.mp4
-vids/bad_apple_epstein.out.mp4
+vids/*
 ffmpeg
 
 epstein/
